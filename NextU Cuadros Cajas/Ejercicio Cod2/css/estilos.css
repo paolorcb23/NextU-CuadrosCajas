@@ -1,0 +1,67 @@
+body {
+	margin: 20px;
+}
+
+#destacados {
+	background-color: #669999;
+}
+
+#ofertas {
+	background-color: #F7D988;
+}
+
+#disponible {
+	background-color: #F7A188;
+}
+
+#contenido > section > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*PRIMERA EDICION DEL EJERCICIO*/
+.contenedor
+{
+	display: flex;
+	flex-direction: row; /*esto pone en fila los ITEMS dentro de las cajas*/
+}
+
+#contenido
+{
+	display: flex;
+	flex-direction: column; /*esto edita los TITULOS dentro de las cajas*/
+}
+
+#destacados .contenedor > div
+{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;  /*todo esto edita los ITEMS dentro de la 1ra caja*/
+	background-color: white;
+	width: 50%;
+}
+
+#ofertas .contenedor > div
+{
+text-align: center;
+padding: 10px;  /*edicion de la 2da caja */
+margin: 10px;
+background-color: white;
+width: 25%;
+}
+
+#disponible .contenedor > div
+{
+	text-align: center;
+	padding: 10px;
+	border: solid 5px coral;
+	background-color: white;
+	width: 25%;
+}

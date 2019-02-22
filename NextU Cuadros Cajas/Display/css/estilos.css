@@ -1,0 +1,17 @@
+h1
+{
+  background-color: rgb(113, 159, 81);
+  height: 150px; /*esto se puede quitar como prueba*/
+  /* esto es para que no se ve el bloqueopacity: 0;*/
+}
+
+h2
+{
+  background-color: rgb(153, 63, 244);
+  display: inline;
+}
+
+p
+{
+  display: inline;
+}
